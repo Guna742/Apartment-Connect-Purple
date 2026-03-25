@@ -1026,6 +1026,10 @@ section {
   border-color: var(--neon-blue);
 }
 
+.hover-3d-flip:hover p {
+  color: white !important;
+}
+
 /* ─── HOVER SLIDE UP (Events Highlight) ─── */
 .hover-slide-up {
   transition: all 0.4s ease;
@@ -1095,6 +1099,11 @@ section {
 .hover-neon-border:hover {
   transform: translateY(-5px);
   background: rgba(20, 24, 46, 0.9);
+}
+
+.hover-neon-border:hover p,
+.hover-neon-border:hover h4 {
+  color: white !important;
 }
 
 .hover-neon-border:hover::after {
