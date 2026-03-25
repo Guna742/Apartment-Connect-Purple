@@ -8,7 +8,7 @@ const featuresData = [
         title: "Community Feed",
         desc: "Stay updated with complex news, security alerts, and neighborly discussions tailored to your specific residential block.",
         icon: "newspaper",
-        background: "linear-gradient(135deg, #FF3366 0%, #FF9933 100%)", // Red-Orange
+        background: "linear-gradient(135deg, #8b5cf6 0%, #d946ef 100%)", // Purple-Pink
         iconColor: "#FFFFFF"
     },
     {
@@ -16,7 +16,7 @@ const featuresData = [
         title: "Maintenance Desk",
         desc: "Raise service requests, track plumbing or electrical fixes, and provide feedback directly to the maintenance team.",
         icon: "engineering",
-        background: "linear-gradient(135deg, #FF9933 0%, #FFD633 100%)", // Orange-Yellow
+        background: "linear-gradient(135deg, #d946ef 0%, #ec4899 100%)", // Pink-Rose
         iconColor: "#FFFFFF"
     },
     {
@@ -24,7 +24,7 @@ const featuresData = [
         title: "Billing & Payments",
         desc: "Pay maintenance fees, electricity bills, and amenity charges securely through an integrated payment gateway.",
         icon: "account_balance_wallet",
-        background: "linear-gradient(135deg, #FFD633 0%, #33CC99 100%)", // Yellow-Green
+        background: "linear-gradient(135deg, #ec4899 0%, #06b6d4 100%)", // Rose-Blue
         iconColor: "#FFFFFF"
     },
     {

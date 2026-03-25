@@ -73,8 +73,8 @@ const HeroSection = () => {
                         <h1 class="hero-title" style={{ fontSize: 'clamp(2.5rem, 5.5vw, 6rem)', lineHeight: 1, fontWeight: 900, marginBottom: '2rem' }}>
                             Connecting <br />
                             Every <br />
-                            <span className="gradient-text">Community</span> <br />
-                            <span className="gradient-text">Digitally</span>
+                            <span className="vice-city-heading">Community</span> <br />
+                            <span className="vice-city-heading">Digitally</span>
                         </h1>
                         <p className="hero-desc" style={{ maxWidth: '500px', margin: '1.5rem 0', color: '#4A4A4A', fontSize: '1.1rem', fontWeight: 500 }}>
                             Apartment Connect unifies residents, staff, owners, and management in one intelligent

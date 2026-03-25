@@ -12,9 +12,9 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/home.css" />
-    <link rel="stylesheet" href="css/hero-new.css" />
+    <link rel="stylesheet" href="css/style.css?v=2" />
+    <link rel="stylesheet" href="css/home.css?v=2" />
+    <link rel="stylesheet" href="css/hero-new.css?v=2" />
 
     <!-- React & Babel CDN -->
     <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
@@ -22,6 +22,7 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <!-- Framer Motion CDN -->
     <script src="https://unpkg.com/framer-motion@10.16.4/dist/framer-motion.js"></script>
+    <link rel="stylesheet" href="css/hero-new.css?v=2" />
 </head>
 
 <body>
@@ -59,7 +60,7 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-label reveal">Who It's For</span>
-                <h2 class="reveal delay-1">Built for the <span class="gradient-text">Entire Community</span></h2>
+                <h2 class="reveal delay-1">Built for the <span class="vice-city-heading">Entire Community</span></h2>
                 <p class="reveal delay-2">One platform connecting every stakeholder in the residential ecosystem — from
                     resident to property manager.</p>
             </div>
@@ -108,7 +109,7 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-label reveal">Features</span>
-                <h2 class="reveal delay-1">Everything Your Community <span class="gradient-text">Needs</span></h2>
+                <h2 class="reveal delay-1">Everything Your Community <span class="vice-city-heading">Needs</span></h2>
                 <p class="reveal delay-2">A comprehensive suite of tools crafted for modern residential life.</p>
             </div>
             <div id="features-carousel-mount"></div>
@@ -124,7 +125,7 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-label reveal">Impact</span>
-                <h2 class="reveal delay-1">Numbers That <span class="gradient-text">Speak</span></h2>
+                <h2 class="reveal delay-1">Numbers That <span class="vice-city-heading">Speak</span></h2>
             </div>
             <div class="stats-grid">
                 <div class="stat-card reveal delay-1 hover-float">
@@ -156,7 +157,7 @@
         <div class="container">
             <div class="cta-inner">
                 <span class="section-label reveal">Ready to Transform?</span>
-                <h2 class="reveal delay-1">Your Community <span class="gradient-text">Deserves More</span></h2>
+                <h2 class="reveal delay-1">Your Community <span class="vice-city-heading">Deserves More</span></h2>
                 <p class="reveal delay-2">Join 120+ residential complexes already using Apartment Connect to build
                     smarter, more connected lives.</p>
                 <div class="cta-buttons reveal delay-3">
@@ -175,14 +176,14 @@
     <section class="premium-section premium-top-waves" id="premium-top">
         <svg class="wave-layer-top" viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg"
             preserveAspectRatio="none">
-            <path fill="var(--prem-purple)" opacity="0.4"
+            <path fill="var(--lp-purple)" opacity="0.4"
                 d="M0,160 C320,300 640,-20 960,150 C1280,320 1440,160 V320 H0 Z"></path>
-            <path fill="var(--prem-blue)" opacity="0.3" d="M0,200 C480,400 960,0 1440,200 V320 H0 Z"></path>
-            <path fill="#1e1b4b" d="M0,240 C320,380 720,100 1120,300 C1440,460 1440,240 1440,240 V320 H0 Z"></path>
+            <path fill="var(--lp-pink)" opacity="0.3" d="M0,200 C480,400 960,0 1440,200 V320 H0 Z"></path>
+            <path fill="var(--creamy-bg)" d="M0,240 C320,380 720,100 1120,300 C1440,460 1440,240 1440,240 V320 H0 Z"></path>
         </svg>
-        <div class="premium-showcase-card dark">
-            <span class="section-label" style="color:var(--prem-purple)">Community Ecosystem</span>
-            <h2>Experience <span class="gradient-text">Seamless</span> Connectivity</h2>
+        <div class="premium-showcase-card light">
+            <span class="section-label" style="color:var(--lp-purple)">Community Ecosystem</span>
+            <h2>Experience <span class="vice-city-heading">Seamless</span> Connectivity</h2>
             <p>A multi-layered digital infrastructure designed to unite residents and management in one fluid
                 experience.</p>
         </div>
@@ -193,9 +194,9 @@
         <svg class="contour-svg" viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
             <defs>
                 <linearGradient id="contour-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                    <stop offset="0%" style="stop-color:var(--prem-orange);stop-opacity:1" />
-                    <stop offset="50%" style="stop-color:var(--prem-pink);stop-opacity:1" />
-                    <stop offset="100%" style="stop-color:var(--prem-purple);stop-opacity:1" />
+                    <stop offset="0%" style="stop-color:var(--lp-purple);stop-opacity:1" />
+                    <stop offset="50%" style="stop-color:var(--lp-pink);stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:var(--lp-peach);stop-opacity:1" />
                 </linearGradient>
             </defs>
             <path class="contour-line" d="M0,100 C360,180 720,20 1080,180 C1260,260 1440,100"
@@ -210,8 +211,8 @@
                 style="animation-delay: -8s;"></path>
         </svg>
         <div class="premium-showcase-card light">
-            <span class="section-label" style="color:var(--prem-pink)">Smart Infrastructure</span>
-            <h2>Fluid <span class="gradient-text">Workflows</span></h2>
+            <span class="section-label" style="color:var(--lp-pink)">Smart Infrastructure</span>
+            <h2>Fluid <span class="vice-city-heading">Workflows</span></h2>
             <p>Intelligent, flowing processes that adapt to your community's unique rhythm and needs.</p>
         </div>
     </section>
@@ -220,16 +221,16 @@
     <section class="premium-section premium-vibrant-waves" id="premium-vibrant">
         <svg class="vibrant-wave-svg" viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg"
             preserveAspectRatio="none">
-            <path class="bold-wave" fill="var(--prem-red)" opacity="0.6"
+            <path class="bold-wave" fill="var(--lp-purple)" opacity="0.6"
                 d="M0,100 C360,250 720,-50 1080,200 C1440,450 1440,100 V320 H0 Z"></path>
-            <path class="bold-wave" fill="var(--prem-orange)" opacity="0.5"
+            <path class="bold-wave" fill="var(--lp-pink)" opacity="0.5"
                 d="M0,150 C480,350 960,-100 1440,150 V320 H0 Z" style="animation-delay: -3s;"></path>
-            <path class="bold-wave" fill="var(--prem-yellow)" opacity="0.4"
+            <path class="bold-wave" fill="var(--lp-peach)" opacity="0.4"
                 d="M0,200 C400,100 800,400 1200,200 C1440,100 1440,200 V320 H0 Z" style="animation-delay: -6s;"></path>
         </svg>
         <div class="premium-showcase-card light" style="margin-bottom: 20vh;">
-            <span class="section-label" style="color:var(--prem-orange)">Join the Network</span>
-            <h2>Vibrant <span class="gradient-text">Communities</span></h2>
+            <span class="section-label" style="color:var(--lp-pink)">Join the Network</span>
+            <h2>Vibrant <span class="vice-city-heading">Communities</span></h2>
             <p>Be part of a colorful, energetic network that transforms the way we live and interact together.</p>
         </div>
     </section>
@@ -240,7 +241,7 @@
         <div class="container">
             <div class="section-header" style="margin-bottom: 3rem;">
                 <span class="section-label reveal">Trusted Partners</span>
-                <h2 class="reveal delay-1">Trusted by Leading <span class="gradient-text">Property Groups</span></h2>
+                <h2 class="reveal delay-1">Trusted by Leading <span class="vice-city-heading">Property Groups</span></h2>
             </div>
         </div>
         <div class="marquee-wrapper reveal delay-2">
@@ -436,7 +437,7 @@
                             </div>
                             <h1 style={{ fontFamily: 'var(--font-heading)' }}>
                                 Connecting Every <br />
-                                <span className="gradient-text-purple">Community Digitally</span>
+                                <span className="vice-city-heading">Community Digitally</span>
                             </h1>
                             <p className="hero-subtitle">
                                 The all-in-one digital ecosystem that unites residents, staff, and management <br />
@@ -487,12 +488,12 @@
 
         // ─── FEATURES CAROUSEL COMPONENT ───
         const featuresData = [
-            { id: 1, title: "Community Feed", desc: "Stay updated with complex news, security alerts, and neighborly discussions tailored to your block.", icon: "newspaper", background: "linear-gradient(135deg, #FF3131 0%, #FF914D 100%)" }, // Red-Orange
-            { id: 2, title: "Maintenance Desk", desc: "Raise service requests, track fixes, and provide feedback directly to the maintenance team.", icon: "engineering", background: "linear-gradient(135deg, #FF914D 0%, #FFDE59 100%)" }, // Orange-Yellow
-            { id: 3, title: "Billing & Payments", desc: "Pay maintenance fees, electricity bills, and amenity charges through a secure gateway.", icon: "account_balance_wallet", background: "linear-gradient(135deg, #FFDE59 0%, #7ED957 100%)" }, // Yellow-Green
-            { id: 4, title: "Resident Groups", desc: "Join hobby clubs, carpool groups, and interest communities in a single networked space.", icon: "groups", background: "linear-gradient(135deg, #7ED957 0%, #5271FF 100%)" }, // Green-Blue
-            { id: 5, title: "Amenities Booking", desc: "Discover and book clubhouses, gyms, and halls with real-time availability tracking.", icon: "calendar_today", background: "linear-gradient(135deg, #5271FF 0%, #8C52FF 100%)" }, // Blue-Purple
-            { id: 6, title: "Visitor Management", desc: "Pre-approve guests, track delivery staff, and ensure a secure environment for your family.", icon: "verified_user", background: "linear-gradient(135deg, #8C52FF 0%, #FF3131 100%)" } // Purple-Red
+            { id: 1, title: "Community Feed", desc: "Stay updated with complex news, security alerts, and neighborly discussions tailored to your block.", icon: "newspaper", background: "linear-gradient(135deg, #8b5cf6 0%, #d946ef 100%)" }, 
+            { id: 2, title: "Maintenance Desk", desc: "Raise service requests, track fixes, and provide feedback directly to the maintenance team.", icon: "engineering", background: "linear-gradient(135deg, #c084fc 0%, #8b5cf6 100%)" }, 
+            { id: 3, title: "Billing & Payments", desc: "Pay maintenance fees, electricity bills, and amenity charges through a secure gateway.", icon: "account_balance_wallet", background: "linear-gradient(135deg, #d946ef 0%, #ec4899 100%)" }, 
+            { id: 4, title: "Resident Groups", desc: "Join hobby clubs, carpool groups, and interest communities in a single networked space.", icon: "groups", background: "linear-gradient(135deg, #8b5cf6 0%, #06b6d4 100%)" }, 
+            { id: 5, title: "Amenities Booking", desc: "Discover and book clubhouses, gyms, and halls with real-time availability tracking.", icon: "calendar_today", background: "linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%)" }, 
+            { id: 6, title: "Visitor Management", desc: "Pre-approve guests, track delivery staff, and ensure a secure environment for your family.", icon: "verified_user", background: "linear-gradient(135deg, #ec4899 0%, #8b5cf6 100%)" } 
         ];
 
         const FeaturesCarousel = () => {
@@ -587,7 +588,7 @@
         const featRoot = ReactDOM.createRoot(document.getElementById('features-carousel-mount'));
         featRoot.render(<FeaturesCarousel />);
     </script>
-    <script src="js/main.js"></script>
+    <script src="js/main.js?v=2"></script>
 </body>
 
 </html>

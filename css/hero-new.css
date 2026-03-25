@@ -1,15 +1,12 @@
 .hero-new {
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #FFFFFF;
+    background: var(--gradient-hero);
     position: relative;
     overflow: hidden;
-    padding: 160px 0;
-    /* Dotted Background */
-    background-image: radial-gradient(rgba(0,0,0,0.05) 1.5px, transparent 1.5px);
-    background-size: 30px 30px;
+    padding: 100px 0;
 }
 
 .hero-background-watermark {
@@ -29,7 +26,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: radial-gradient(circle at center, transparent 0%, #FFFFFF 80%);
+    background: radial-gradient(circle at center, transparent 0%, rgba(245, 243, 255, 0.4) 80%);
     pointer-events: none;
     z-index: 1;
 }
@@ -71,15 +68,18 @@
 
 .hero-new h1 .gradient-text-purple {
     font-family: 'Pacifico', cursive;
-    background: linear-gradient(to bottom, #FFB800 0%, #FFFFFF 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #fff;
+    -webkit-text-fill-color: #fff;
+    display: inline-block;
+    padding: 0 10px 0.1em;
     font-weight: 400;
-    filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.15)) 
-            drop-shadow(4px 4px 4px rgba(0,0,0,0.12)) 
-            drop-shadow(8px 8px 8px rgba(0,0,0,0.1)) 
-            drop-shadow(16px 16px 16px rgba(0,0,0,0.08));
+    text-shadow: 
+        0 0 5px #fff,
+        0 0 10px #ff007f,
+        0 0 20px #ff007f,
+        0 0 40px #ff007f,
+        4px 4px 0px rgba(0,0,0,0.8);
+    transform: rotate(-2deg);
 }
 
 .hero-new .hero-subtitle {
@@ -91,21 +91,23 @@
 }
 
 .hero-new .btn-get-started {
-    background: var(--orange-vibrant);
+    background: var(--gradient-primary);
     color: #FFFFFF;
-    padding: 0.85rem 2.5rem;
+    padding: 0.85rem 2.8rem;
     border-radius: 50px;
     font-weight: 700;
     font-size: 1.1rem;
-    box-shadow: 0 4px 15px rgba(255, 149, 0, 0.4);
-    border: none;
+    box-shadow: 0 0 25px var(--primary-glow);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .hero-new .btn-get-started:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(255, 149, 0, 0.6);
-    background: #FF8A00;
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 0 35px var(--primary-glow);
+    filter: brightness(1.1);
 }
 
 .hero-new .hero-footer-text {
@@ -177,10 +179,7 @@
 }
 
 .connecting-line {
-    fill: none;
-    stroke: rgba(0,0,0,0.1);
-    stroke-width: 1.5;
-    stroke-dasharray: 4 6;
+    display: none;
 }
 
 /* User Avatars */
